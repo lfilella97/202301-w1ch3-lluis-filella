@@ -1,6 +1,46 @@
 @import url("/node_modules/@fortawesome/fontawesome-free/css/all.min.css");
 
-header,
-main {
+* {
+  margin: 0;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+html {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #279989;
+  display: flex;
+  width: 100vw;
+}
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+nav {
+  flex: 1;
+}
+.links {
+  display: flex;
+}
+li {
+  padding: 15px;
+}
+a:is(:link, :visited, :active) {
+  text-decoration: none;
+  color: #fff;
+}
+.add-elements {
+  background-color: #44a080;
+}
+
+.listed-elements-section {
+  background-color: #ffc845;
 }
