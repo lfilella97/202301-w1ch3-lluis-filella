@@ -77,3 +77,11 @@ main {
   padding-right: 25px;
   font-size: 1.2rem;
 }
+
+.p-form {
+  padding: 15px;
+}
+
+h2 {
+  padding: 15px;
+}
